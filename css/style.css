@@ -1,0 +1,666 @@
+body {
+  background-color: #E9EBEE;
+  font-family: Helvetica;
+    margin: 0;
+  padding: 0;
+}
+
+.already_registered {
+   color: #ffffff; 
+}
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+
+/*-------------------------------Register page ---------------------------------------*/
+
+
+.register_box {
+  width: 555px;
+  padding: 50px;
+  position: absolute;
+  top: 51%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);  
+}
+
+.register_box th, td
+{
+    padding: 10px;
+}
+
+.register_box .button{
+  border:0;
+  background-color: #000000;
+  /*display: block;*/
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  left: 50%;
+}
+
+.register_box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*-------------------------------Register page ---------------------------------------*/
+
+/*------------------------------- Login page ---------------------------------------*/
+
+.login_box
+{
+  width: 350px;
+  padding: 50px;
+  position: absolute;
+  top: 51%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.login_box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.login_box .field {
+  border:0;
+  /*background: none;*/
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  /*color: white;*/
+  border-radius: 24px;
+  /*transition: 0.25s;*/
+}
+/*.login_box .field:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}*/
+.login_box .button{
+  border:0;
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+/*------------------------------- Login page ---------------------------------------*/
+
+
+
+/*.login_box .button:hover{
+  background: #2ecc71;
+}*/
+
+/*.register_box*/
+.field {
+  border:0;
+  /*background: none;*/
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  /*color: white;*/
+  border-radius: 24px;
+  transition: 0.25s;
+}
+/*.login_box .field:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}*/
+
+
+/*.login_box .button:hover{
+  background: #2ecc71;
+}*/
+
+.navbar ul {
+  list-style-type: none;
+  background-color: #f5f8fa;
+  overflow: hidden;
+  margin-top: 0px;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  padding: 15px 17px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: lightgray;
+}
+
+
+
+.right_box {
+    float: right;
+}
+
+.left_box {
+    float: left;
+}
+
+.center {
+    margin-left: 82px;
+}
+
+.navbar .active {
+    background-color: lightblue;
+}
+
+ .nav_search {
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 300px;
+}
+
+/* ----------------------- profile -----------------------------------*/
+
+.profile_container {
+	width: 1300px;
+	height: auto;
+	height: auto;
+	display:flex;
+	margin: 50px auto 0 ;
+	/*box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);*/
+}
+
+.profile_container .profile_side{
+	width: 30%;
+        height:100%;
+	background: #344652;
+}
+
+.profile_container .profile_side_content {
+	padding: 0 25px;
+}
+
+.about {
+    padding: 25px 0;
+    border-bottom: 2px solid #efefef;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+        color: white;
+}
+
+
+.icon {
+	background: #ffffff;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+.title_data {
+	padding-top: 0px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.info {
+	color: #ffffff;	
+}
+
+.about_group {	
+	display: flex;
+	align-items: center;	
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.content_main {
+	background-color: #ffffff;
+        width: 70%;
+}
+.profile_header {
+	height: 200px;
+        background: #e6e7e9;	
+	display: flex;
+	align-items: center;
+}
+
+.profile_header .button{
+  border:0;
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.profile_header .photo_image img{
+	height: 180px;
+        width: 180px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 75px;
+	border-radius: 50%;
+}
+
+.profile_header .profile_info {
+	padding-left: 40px;
+}
+
+.profile_header .profile_info .fname {
+	font-weight: regular;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: 	#696969;
+}
+
+.profile_header .profile_info .lname {
+	font-weight: bold;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #344652;
+} 
+
+#modify_profile_buttons {
+    margin: auto;
+}
+
+.update_profile_fields .button{
+  border:0;
+  background-color: #000000;
+  /*display: block;*/
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 40px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  left: 50%;
+}
+
+#modify_profile_buttons .button{
+  border:0;
+  background-color: #000000;
+  width: 200px; 
+  margin: 5px auto;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  left: 50%;
+}
+
+/* -----------------------------         Profile         ----------------------------- -------------------------*/
+/* -----------------------------  Change password page   ----------------------------------------------------- */
+
+.change_password_box
+{
+    
+  width: 350px;
+  padding: 50px;
+  position: absolute;
+  top: 51%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+
+.change_password_box .field {
+  border:0;
+  /*background: none;*/
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  /*border: 2px solid #3498db;*/
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  /*color: white;*/
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.change_password_box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.change_password_box .button{
+  border:0;
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+/* -----------------------------  Change password page   ----------------------------------------------------- */
+/* -----------------------------  Update info page       ------------------------------------------------------ */
+.update_info_box {
+  width: 450px;
+  padding: 50px;
+  position: absolute;
+  top: 470px;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.update_info_box .field {
+  border:0;
+  /*background: none;*/
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  /*border: 2px solid #3498db;*/
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  /*color: white;*/
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.update_info_box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.update_info_box .button{
+  border:0;
+  background: black;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+/* -----------------------------  Update info page       ------------------------------------------------------ */
+/* -----------------------------  Publish profile page   ------------------------------------------------------ */
+textarea {
+  resize: none;
+}
+
+.content_main .publish_post {
+    padding-left: 50px;
+}
+
+.publish_post_profile_form {
+    margin-left: 50px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile_post_box {
+    margin: 0 50px 50px 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.profile_post_poster {
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: underline;
+}
+
+
+.profile_post_date{
+    font-size: 15px;
+    color: lightslategray;
+}
+
+.profile_post_content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.profile_post_image {
+    margin-bottom: 10px;
+}
+
+.profile_post_comment_button {
+   margin-top: 15px; 
+}
+
+.profile_post_like_button {
+    padding-bottom: 15px;
+    border-bottom: 1px solid darkgrey;
+    width: 370px;
+}
+
+.profile_post_name {
+}
+
+/* -----------------------------  Publish profile page   ------------------------------------------------------ */
+/* -----------------------------  Homepage   ------------------------------------------------------ */
+
+.homepage_box {
+	width: 1000px;
+	height: auto;
+	height: auto;
+	display:flex;
+	margin: 50px auto 0 ;
+        background: #ffffff;
+       box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+
+}
+
+.homepage_box .publish_post {
+    padding-left: 50px;
+}
+
+.homepage_box .userposts {
+    padding-left: 50px;
+}
+
+#publish_post_homepage {
+    width: 100%;
+}
+
+.commenter_name {
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.comment_inside {
+padding-bottom: 5px;
+border-bottom: 1px solid lightgrey;
+width: 370px;
+}
+
+#headercenter {
+   text-align: center; 
+   font-size: 25px;
+}
+
+.search_box {
+    text-align: center;
+    	width: 700;
+	height: auto;
+	height: auto;
+	display:flex;
+	margin: 50px auto 0 ;
+        background: #ffffff;
+       box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.profile_search_box {
+    
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 500px;
+    position: relative;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+}
+
+.profile_search_box_container {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 800px;
+    position: relative;
+}
+
+
+.button {
+  border:0;
+  background-color: #000000;
+  /*display: block;*/
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 40px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  left: 50%;
+}
+
+.search_button {
+  border:0;
+  background-color: #000000;
+  /*display: block;*/
+  margin: 0px auto;
+  text-align: center;
+  padding: 10px 5px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  left: 50%;
+}
+
+
+.messages_box {
+    	width: 700;
+	height: 1500px;
+	margin: 50px auto 0 ;
+        background: #ffffff;
+       box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);   
+}
+
+.messages_person_list {
+ margin: 0px; 
+ width: 300px;
+ float: left;
+}
+
+
+.messages_send_box {
+ margin: 0px; 
+ width: 300px;
+margin-left: 500px; 
+}
+
+.conversation_box {
+    width: 500px;
+}
+
+.right {
+    background: blue;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    margin-left: 50%;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left {
+    background: red;
+    width: 50%;
+    color: white;  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
